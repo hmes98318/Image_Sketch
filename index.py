@@ -8,11 +8,11 @@ import os
 
 
 class item:
-    def __init__(self, filename, locate, image, video):
-        self.filename = filename
-        self.locate = locate
-        self.image = image
-        self.video = video
+    def __init__(self):
+        self.filename = None
+        self.locate = None
+        self.image = None
+        self.video = None
 config = item()
 
 
